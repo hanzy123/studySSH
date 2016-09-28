@@ -3,6 +3,10 @@
 ```
 ssh sxwl1080@192.168.0.206
 ```
+运行docker容器
+```
+sudo docker start hzy_caffe_gpu
+```
 查看正在运行的docker容器
 ```
 sudo docker ps
