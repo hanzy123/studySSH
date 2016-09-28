@@ -13,6 +13,10 @@ sudo docker exec -it [dockername] zsh
 ```
 docker中的dl-data和服务器路径中的/hzy/dl-data/是同一目录
 
+当前目录下的所有文件(生成树)
+```
+find . -print | sort | sed 's;[^/]*/;|---;g;s;---|; |;g'
+```
 复制文件和目录
 ```
 http://www.cnblogs.com/hitwtx/archive/2011/11/16/2251254.html
